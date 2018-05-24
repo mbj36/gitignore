@@ -1,6 +1,6 @@
 {
   "name": "make-gitignore",
-  "version": "1.0.5",
+  "version": "1.1.1",
   "private": false,
   "description": "Create gitignore for your project",
   "author": {
@@ -15,10 +15,16 @@
   "bin": {
     "gitignore": "cli.js"
   },
-  "files": ["cli.js"],
+  "files": [
+    "cli.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["gitignore", "git"],
-  "license": "MIT"
+  "keywords": [
+    "gitignore",
+    "git"
+  ],
+  "license": "MIT",
+  "dependencies": {}
 }
