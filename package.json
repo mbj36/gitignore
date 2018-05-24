@@ -1,0 +1,16 @@
+{
+  "name": "gitignore",
+  "version": "1.0.0",
+  "description": "Create gitignore for your project",
+  "main": "index.js",
+  "author": {
+    "name": "Mohit Bajoria",
+    "email": "mohitbajo36@gmail.com",
+    "url": "https://mbj36.xyz"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
