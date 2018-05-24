@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 'use strict';
-var fs = require('fs');
+
+var writeFile = require('fs').writeFile;
 
 var gitignore = 'hello';
 
-fs.writeFile(`${__dirname}/.gitignore`, gitignore, function(err) {
+writeFile(`${process.cwd()}/.gitignore`, gitignore, function(err) {
+  console.log(`${process.cwd()}/.gitignore`);
   if (err) {
     console.log(err);
   } else {
