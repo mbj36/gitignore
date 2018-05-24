@@ -1,10 +1,10 @@
-const writeFile = require('fs').writeFile;
+#!/usr/bin/env node
+'use strict';
+var fs = require('fs');
 
-const gitignore = `
-node_modules
-`;
+var gitignore = 'hello';
 
-writeFile(`${__dirname}/.gitignore`, gitignore, function(err) {
+fs.writeFile(`${__dirname}/.gitignore`, gitignore, function(err) {
   if (err) {
     console.log(err);
   } else {
