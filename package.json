@@ -1,14 +1,19 @@
 {
-  "name": "gitignore",
+  "name": "make-gitignore",
   "version": "1.0.0",
+  "private": false,
   "description": "Create gitignore for your project",
   "author": {
     "name": "Mohit Bajoria",
     "email": "mohitbajo36@gmail.com",
     "url": "https://mbj36.xyz"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbj36/gitignore.git"
+  },
   "bin": {
-    "git-ignore": "cli.js"
+    "gitignore": "cli.js"
   },
   "files": ["cli.js"],
   "scripts": {
